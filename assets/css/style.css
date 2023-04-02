@@ -1,0 +1,30 @@
+.accordion-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgb(197, 197, 197);
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+}
+.accordion-btn span {
+  font-size: 20px;
+}
+
+.accordion-btn:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+.accordion-opened-panel {
+  display: none;
+  padding: 20px;
+}
